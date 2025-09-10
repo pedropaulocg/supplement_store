@@ -1,0 +1,185 @@
+import { Product } from "@/types";
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Vitamin C Complex',
+    description: 'High-potency vitamin C formula to support immune health.',
+    price: 19.99,
+    image: 'https://via.placeholder.com/300x300?text=Vitamin+C+Complex',
+    category: 'Vitamins',
+    rating: 4.5,
+    stock: 120,
+    smug: 'vitamin-c-complex',
+    bestseller: true
+  },
+  {
+    id: '2',
+    name: 'Vitamin D3',
+    description: 'Essential vitamin D3 supplement for bone and immune support.',
+    price: 14.99,
+    image: 'https://via.placeholder.com/300x300?text=Vitamin+D3',
+    category: 'Vitamins',
+    rating: 4.7,
+    stock: 80,
+    smug: 'vitamin-d3',
+    bestseller: true
+  },
+  {
+    id: '3',
+    name: 'Vitamin B12',
+    description: 'Energy-boosting vitamin B12 to aid metabolism and nerve function.',
+    price: 17.99,
+    image: 'https://via.placeholder.com/300x300?text=Vitamin+B12',
+    category: 'Vitamins',
+    rating: 4.2,
+    stock: 60,
+    smug: 'vitamin-b12',
+    bestseller: true
+  },
+  {
+    id: '4',
+    name: 'Whey Protein Isolate',
+    description: 'Fast-absorbing protein isolate to support muscle recovery and growth.',
+    price: 29.99,
+    image: 'https://via.placeholder.com/300x300?text=Whey+Protein+Isolate',
+    category: 'Protein',
+    rating: 4.6,
+    stock: 200,
+    smug: 'whey-protein-isolate',
+    bestseller: true
+  },
+  {
+    id: '5',
+    name: 'Plant Protein Blend',
+    description: 'Vegan-friendly protein blend from pea, rice, and hemp proteins.',
+    price: 34.99,
+    image: 'https://via.placeholder.com/300x300?text=Plant+Protein+Blend',
+    category: 'Protein',
+    rating: 4.3,
+    stock: 150,
+    smug: 'plant-protein-blend',
+    bestseller: true
+  },
+  {
+    id: '6',
+    name: 'Casein Protein',
+    description: 'Slow-digesting casein protein to fuel muscles overnight.',
+    price: 27.99,
+    image: 'https://via.placeholder.com/300x300?text=Casein+Protein',
+    category: 'Protein',
+    rating: 4.4,
+    stock: 90,
+    smug: 'casein-protein',
+    bestseller: true
+  },
+  {
+    id: '7',
+    name: 'Energy Blast Pre-workout',
+    description: 'High-stim pre-workout for explosive energy and focus.',
+    price: 39.99,
+    image: 'https://via.placeholder.com/300x300?text=Energy+Blast+Pre-workout',
+    category: 'Pre-workout',
+    rating: 4.1,
+    stock: 110,
+    smug: 'energy-blast-pre-workout',
+    bestseller: true
+  },
+  {
+    id: '8',
+    name: 'Pump Surge',
+    description: 'Nitric oxide booster to enhance muscle pump and vascularity.',
+    price: 35.99,
+    image: 'https://via.placeholder.com/300x300?text=Pump+Surge',
+    category: 'Pre-workout',
+    rating: 4.0,
+    stock: 75,
+    smug: 'pump-surge',
+    bestseller: true
+  },
+  {
+    id: '9',
+    name: 'Nitro N.O.',
+    description: 'Advanced pre-workout designed for max endurance and power.',
+    price: 42.99,
+    image: 'https://via.placeholder.com/300x300?text=Nitro+N.O.',
+    category: 'Pre-workout',
+    rating: 4.8,
+    stock: 60,
+    smug: 'nitro-no',
+    bestseller: true
+  },
+  {
+    id: '10',
+    name: 'ZMA Sleep Aid',
+    description: 'Combination of zinc, magnesium, and vitamin B6 to support restful sleep.',
+    price: 22.99,
+    image: 'https://via.placeholder.com/300x300?text=ZMA+Sleep+Aid',
+    category: 'Pre-bed',
+    rating: 4.2,
+    stock: 140,
+    smug: 'zma-sleep-aid',
+    bestseller: false
+  },
+  {
+    id: '11',
+    name: 'Magnesium Night',
+    description: 'Magnesium supplement to promote relaxation and deep sleep.',
+    price: 19.99,
+    image: 'https://via.placeholder.com/300x300?text=Magnesium+Night',
+    category: 'Pre-bed',
+    rating: 4.3,
+    stock: 100,
+    smug: 'magnesium-night',
+    bestseller: false
+
+  },
+  {
+    id: '12',
+    name: 'Sleep Tonic',
+    description: 'Herbal blend with melatonin and valerian root for gentle sleep support.',
+    price: 24.99,
+    image: 'https://via.placeholder.com/300x300?text=Sleep+Tonic',
+    category: 'Pre-bed',
+    rating: 3.9,
+    stock: 95,
+    smug: 'sleep-tonic',
+    bestseller: false
+  },
+  {
+    id: '13',
+    name: 'Fish Oil Omega-3',
+    description: 'Purified fish oil capsules providing EPA and DHA for heart health.',
+    price: 21.99,
+    image: 'https://via.placeholder.com/300x300?text=Fish+Oil+Omega-3',
+    category: 'Other',
+    rating: 4.6,
+    stock: 130,
+    smug: 'fish-oil-omega-3',
+    bestseller: false
+  },
+  {
+    id: '14',
+    name: 'Probiotic 50 Billion',
+    description: 'High-strength probiotic blend to support digestive health.',
+    price: 25.99,
+    image: 'https://via.placeholder.com/300x300?text=Probiotic+50+Billion',
+    category: 'Other',
+    rating: 4.4,
+    stock: 85,
+    smug: 'probiotic-50-billion',
+    bestseller: false
+  },
+  {
+    id: '15',
+    name: 'Digestive Enzymes',
+    description: 'Comprehensive enzyme formula to aid nutrient absorption.',
+    price: 18.99,
+    image: 'https://via.placeholder.com/300x300?text=Digestive+Enzymes',
+    category: 'Other',
+    rating: 4.1,
+    stock: 70,
+    smug: 'digestive-enzymes',
+    bestseller: false
+  }
+];
