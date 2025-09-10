@@ -30,7 +30,7 @@ The project was implemented using **Next.js 15 with TypeScript**, styled with **
 
 ### 1. Clone the repository:
 ```
-git clone [https://github.com/your-username/supplement-store.git](https://github.com/pedropaulocg/supplement_store.git)
+git clone https://github.com/your-username/supplement-store.git
 cd supplement-store
 ```
 
